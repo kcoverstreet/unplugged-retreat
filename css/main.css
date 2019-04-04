@@ -101,6 +101,93 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*----------------------------Base Header - Footer Styles-----------------------*/
+
+header, 
+footer, {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+} 
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    
+
+}
+
+footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+/* Hero Area */
+
+.hero-area
+
+
+/* Aside */
+aside
+
+/* Features */
+.features
+
+.features .features-items
+
+/* Reviews */
+
+.reviews
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.mission
+
+.contect-section
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq
+
+.faq .content-wrapper
+
+
 
 
 
