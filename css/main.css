@@ -116,7 +116,7 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-
+    
 }
 
 header nav {
@@ -124,12 +124,14 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 
 }
 
 header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
     
 } 
 
@@ -146,6 +148,19 @@ footer .social-icons p {
     
 }
 
+.header-divider {
+    width: 100%;
+
+}
+
+footer .content-wrapper {
+    width: 55%;
+}
+
+.content-wrapper {
+    width: 90%;
+
+}
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 /* Hero Area */
@@ -153,7 +168,8 @@ footer .social-icons p {
 .hero-area { 
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;}
+    flex-flow: row wrap;
+}
 
 
 /* Aside */
@@ -178,12 +194,23 @@ aside {
     flex-flow: row wrap;
 }
 
+.features article {
+    width: 55%;
+
+}
+
 /* Reviews */
 
 .reviews {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    
+}
+
+.reviews h3 {
+    width: 55%;
+
 }
 
 /* ==========================================================================
@@ -222,6 +249,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    
 }
 
 
@@ -328,9 +356,13 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+ @media only screen and (min-width: 768px) {
+     /*Tablet styles here*/
+ }
+
+ @media only screen and (min-width: 1200px) {
+     /*Desktop styles here*/
+ }
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
